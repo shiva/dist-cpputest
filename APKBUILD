@@ -15,8 +15,8 @@ source="https://github.com/cpputest/${pkgname}/releases/download/v${pkgver}/${pk
 builddir="$srcdir/$pkgname-$pkgver"
 
 build() {
-    cd "$builddir"/cpputest_build
-    cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr ..
+    cd "$builddir"
+    cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr $srcdir/
     make || return 1
 }
 
