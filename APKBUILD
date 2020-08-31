@@ -1,7 +1,7 @@
 # Contributor: Shiva Velmurugan <shiv@shiv.me>
 # Maintainer: Shiva Velmurugan <shiv@shiv.me>
 pkgname=cpputest
-pkgver=3.8
+pkgver=4.0
 pkgrel=1
 pkgdesc="CppUTest is a unit testing and mocking framework for C/C++"
 url="http://cpputest.github.io/"
@@ -26,6 +26,6 @@ package() {
     install -Dm644 COPYING "$pkgdir"/usr/share/licenses/$pkgname/COPYING
 }
 
-md5sums="e8fdbbb5dd37d32d65919f240f984905  cpputest-3.8.tar.gz"
-sha256sums="c81dccc5a1bfc7fc6511590c0a61def5f78e3fb19cb8e1f889d8d3395a476456  cpputest-3.8.tar.gz"
-sha512sums="a9592bdc9ffab8b42026ef2010f504e7e37d77fc2f197f89d23f7c9285a101059a0ec66418b914db0383974616d31b26addd1938fb27f45c3e7d9496ed0a0fac  cpputest-3.8.tar.gz"
+md5sums="d41d8cd98f00b204e9800998ecf8427e cpputest-4.0.tar.gz"
+sha256sums="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 cpputest-4.0.tar.gz"
+sha512sums="cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e cpputest-4.0.tar.gz"
